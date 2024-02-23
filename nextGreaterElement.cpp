@@ -28,9 +28,9 @@ vector<int> NextGreaterElement(vector<int>arr)
 }
 
 int main(){
-   vector<int>arr={3,5,2,1,6,7,8,4};
+   vector<int>greater={3,5,2,1,6,7,8,4};
 
-    vector<int>arr=NextGreaterElement(arr);
+    vector<int>arr=NextGreaterElement(greater);
     for(int val:arr){
         cout<<val<<" ";
     }
